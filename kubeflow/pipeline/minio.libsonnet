@@ -31,7 +31,7 @@
     },  //service
 
     deploy(image, minioPvcName): {
-      apiVersion: "apps/v1beta1",
+      apiVersion: "apps/v1",
       kind: "Deployment",
       metadata: {
         name: "minio",
